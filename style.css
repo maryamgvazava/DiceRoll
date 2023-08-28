@@ -3,7 +3,7 @@
 * {
   margin: 0;
   padding: 0;
-  box-sizing: inherit;
+/*   box-sizing: inherit; */
 }
 
 html {
@@ -12,7 +12,7 @@ html {
 }
 
 body {
-  font-family: 'Nunito', sans-serif;
+/*   font-family: 'Nunito', sans-serif; */
   font-weight: 400;
   height: 100vh;
   color: #333;
@@ -49,9 +49,9 @@ main {
 .name {
   position: relative;
   font-size: 4rem;
-  text-transform: uppercase;
+/*   text-transform: uppercase;
   letter-spacing: 1px;
-  word-spacing: 2px;
+  word-spacing: 2px; */
   font-weight: 300;
   margin-bottom: 1rem;
 }
@@ -107,15 +107,15 @@ main {
   color: #444;
   background: none;
   border: none;
-  font-family: inherit;
+/*   font-family: inherit; */
   font-size: 1.8rem;
-  text-transform: uppercase;
-  cursor: pointer;
+/*   text-transform: uppercase;
+  cursor: pointer; */
   font-weight: 400;
   transition: all 0.2s;
 
-  background-color: white;
-  background-color: rgba(255, 255, 255, 0.6);
+  background-color: white, rgba(255, 255, 255, 0.6);
+/*   background-color: ; */
   backdrop-filter: blur(10px);
 
   padding: 0.7rem 2.5rem;
@@ -175,12 +175,8 @@ main {
   .player{
   padding: 4rem !important;
   transition: none !important;
-    
   }
-
- 
 }
-
 
 
 @media screen and (max-width:700px){
@@ -193,39 +189,26 @@ main {
   font-size: 1.3rem;
   font-weight: 700;
   padding: 0.7rem 1.3rem;
-
 }
 
 .current{
   width: 80px;
   padding: 2px;
-
-
- 
 }
 
 .current-label{
   font-size: 12px;
   font-weight: 700;
 }
-
-
-
 .btn--new {
   top: 48%;
-
 }
-
 .btn--roll{
   top: 60%;
 }
-
-
 .btn--hold{
   top: 72%
 }
-
-
 .dice{
   height: 8rem
 }
